@@ -29,5 +29,5 @@
 .header__logo {
   margin-left: 3em;
   width: 16rem;
-  height: 16rem;
+  height: auto;
 }
