@@ -16,8 +16,8 @@
   align-items: center; 
   justify-content: flex-start; 
   color: var(--color-white);
-  border-top-left-radius: 125px;
-  border-top-right-radius: 125px;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
   box-shadow: 10px 10px 30px var(--color-biege-dark), -10px -10px 30px var(--color-white);
 
 }
@@ -25,5 +25,5 @@
 .footer__logo {
   margin-left: 3em;
   width: 16rem;
-  height: 16rem;
+  height: auto;
 }
