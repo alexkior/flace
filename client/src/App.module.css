@@ -33,6 +33,35 @@
   }
 }
 
+.page_wrapper {
+  min-height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "content"
+    "footer";
+  align-content: stretch;
+  justify-items: stretch;
+
+}
+
+.content_wrapper {
+  grid-area: content;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content_text { 
+  color: var(--color-black);
+}
+
 .card {
   padding: 2em;
 }
